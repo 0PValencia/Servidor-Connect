@@ -2,10 +2,10 @@
   "name": "mapa-bolivia-nasa",
   "version": "1.0.0",
   "description": "Mapa interactivo de Bolivia con datos NASA",
-  "main": "server/server.js",
+  "main": "server.js",
   "scripts": {
-    "start": "node server/server.js",
-    "dev": "nodemon server/server.js"
+    "start": "node server.js",
+    "dev": "nodemon server.js"
   },
   "dependencies": {
     "express": "^4.18.2",
@@ -16,6 +16,6 @@
     "node": ">=16.0.0"
   },
   "keywords": ["mapa", "bolivia", "nasa", "leaflet"],
-  "author": "Tu Nombre",
-  "license": "MIT"
+  "author": "0PValencia",
+  "license": "None"
 }
