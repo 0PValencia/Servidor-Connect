@@ -4,7 +4,7 @@ const path = require('path');
 const Database = require('./database');
 
 const app = express();
-const PORT = process.env.PORT || 3001; // Railway asigna puerto automático
+const port = process.env.PORT || 4000 
 const db = new Database();
 
 // Middleware
