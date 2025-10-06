@@ -4,7 +4,7 @@ const path = require('path');
 const Database = require('./database');
 
 const app = express();
-const port = process.env.PORT || 4000 
+const PORT = process.env.PORT || 3000; // 3000 para desarrollo local
 const db = new Database();
 
 // Middleware
